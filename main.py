@@ -35,7 +35,7 @@ class Proxy(Thread):
 
 
 if __name__ == "__main__":
-    LISTEN = ("0.0.0.0", 8008)
+    LISTEN = ("0.0.0.0", 443)
     
     # Use environment variable for target address
     target_env = os.getenv("TARGET_SERVER", "localhost:5084")
